@@ -1,0 +1,15 @@
+name: 'Name Branch'
+
+on: pull_request_review
+
+jobs:
+  name-branch:
+    name: Name branch
+    runs-on: macos-latest
+    env:
+      branch_name: "pre-$GITHUB_REF"
+
+    steps:
+        - name: Name branch
+          run: |
+            echo $branch_name
