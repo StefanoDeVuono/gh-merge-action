@@ -1,6 +1,6 @@
 name: 'Success/Fail'
 
-on: pull_request_target
+on: pull_request_review
 
 jobs:
   success-fail:
