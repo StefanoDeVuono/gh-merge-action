@@ -8,12 +8,10 @@ jobs:
     runs-on: macos-latest
     env:
       branch_name: "pre-$GITHUB_REF"
-      branch_name_two: pre-$GITHUB_REF
       branch_name_three: ${{ pre-$GITHUB_REF }}
 
     steps:
         - name: Name branch
           run: |
             echo $branch_name
-            echo $branch_name_two
             echo $branch_name_three
