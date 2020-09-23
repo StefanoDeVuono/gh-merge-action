@@ -14,3 +14,4 @@ jobs:
           run: |
             echo $branch_name
             echo $GITHUB_REF
+            echo $GITHUB_SHA
