@@ -1,6 +1,6 @@
 name: 'Name Branch'
 
-on: pull_request_review
+on: push
 
 jobs:
   name-branch:
