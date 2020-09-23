@@ -1,6 +1,6 @@
 name: 'Success/Fail'
 
-on: pull_request_review
+on: push
 
 jobs:
   success-fail:
@@ -12,5 +12,5 @@ jobs:
           uses: actions/checkout@v2
         - name: Success
           run: |
-            chmod +x ./.github/workflows/success.sh
-            ./.github/workflows/success.sh
+            chmod +x ./.github/workflows/success-or-fail.sh
+            ./.github/workflows/success-or-fail.sh

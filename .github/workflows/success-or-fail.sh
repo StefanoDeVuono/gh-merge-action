@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 echo "success"
-echo "ok"
+# echo "fail"
 
 exit 0
+# exit 1
