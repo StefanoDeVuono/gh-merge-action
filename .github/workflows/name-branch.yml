@@ -8,6 +8,7 @@ jobs:
     runs-on: macos-latest
     env:
       branch_name: "pre-$GITHUB_REF"
+      branch_name_two: "pre-${{ github.ref }}"
 
     steps:
         - name: Name branch
@@ -15,3 +16,4 @@ jobs:
             echo $branch_name
             echo $GITHUB_REF
             echo $GITHUB_SHA
+            echo $branch_name_two
