@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-echo "success"
-# echo "fail"
+# echo "success"
+echo "fail"
 
-exit 0
-# exit 1
+# exit 0
+exit 1
