@@ -13,4 +13,4 @@ jobs:
         - name: Success
           run: |
             chmod +x ./.github/workflows/success.sh
-            ./github/workflows/success.sh
+            ./.github/workflows/success.sh
