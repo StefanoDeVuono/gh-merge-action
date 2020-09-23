@@ -11,4 +11,4 @@ test('other', t => t.pass())
 
 test('the other thing too', t => t.pass())
 
-test('this one fails', t => t.fail())
+// test('this one fails', t => t.fail())
