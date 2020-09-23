@@ -10,7 +10,7 @@ jobs:
     steps:
         - name: Checkout code
           uses: actions/checkout@v2
-        - name: Fail
+        - name: Success
           run: |
-            chmod +x ./.github/workflows/fail.sh
-            ./github/workflows/fail.sh
+            chmod +x ./.github/workflows/success.sh
+            ./github/workflows/success.sh
