@@ -1,6 +1,9 @@
 name: 'Merge Flow'
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   test-on-merge:
