@@ -4,7 +4,7 @@ on: push
 
 jobs:
   npm-test:
-    name: Test on merge to master
+    name: npm test
     runs-on: macos-latest
     steps:
         - name: Checkout code
