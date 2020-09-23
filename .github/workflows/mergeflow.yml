@@ -1,15 +1,11 @@
 name: 'Merge Flow'
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
-  test-on-merge:
+  npm-test:
     name: Test on merge to master
     runs-on: macos-latest
-
     steps:
         - name: Checkout code
           uses: actions/checkout@v2
