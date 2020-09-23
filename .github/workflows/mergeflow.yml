@@ -1,6 +1,6 @@
 name: 'Merge Flow'
 
-on: push
+on: pull_request_target
 
 jobs:
   npm-test:
